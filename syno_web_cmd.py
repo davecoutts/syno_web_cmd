@@ -3,7 +3,7 @@ from sh import syno_poweroff_feasible_check
 
 @route('/')
 def home():
-    return "syno_web_cmd is running\n\nPower off the Synology with 'wget http://SYNOLOGY_IP_ADDRESS:8080/poweroff'"
+    return "syno_web_cmd is running. Power off the Synology with 'wget http://SYNOLOGY_IP_ADDRESS:8080/poweroff'"
 
 @route('/poweroff')
 def _poweroff():
