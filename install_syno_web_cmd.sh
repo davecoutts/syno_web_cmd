@@ -1,5 +1,5 @@
 #  ssh into your Synology as root
-#  e.g.   ssh root@SYNOLOGY_IP_ADDRESS
+#  e.g.   ssh root@SYNOLOGY_IP_ADDRESS  or  ssh admin@SYNOLOGY_IP_ADDRESS
 #  The root account password is the same as the admin password
 
 # rm -rf /usr/local/syno_web_cmd
